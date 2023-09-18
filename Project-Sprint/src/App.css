@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(35, 51, 35);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-color: rgb(114, 136, 114);
+    margin: 0 auto;
+    max-width: 1750px;
+}
+
+header{
+    margin: 0 auto;
+    max-width: 1750px;
+    background-color: rgb(45, 77, 45);
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    padding-left: 1.5%;
+    color: rgb(236, 227, 211);
+}
+
+header h1:hover{
+    text-shadow: 1px 1px 10px #8b9c8a ;
+}
+
+.nav{
+    background-color: rgb(30, 61, 30);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav h3{
+    color: rgb(236, 227, 211);
+    padding-right: 15px;
+    transition: 0.8s;
+}
+
+.nav h3:hover{
+    font-size: x-large;
+    transition: 0.6s;
+}
+
+.inicio img{
+    width: 100%;
+}
+
+.textbox{
+    background-color: #9fd49d;
+    margin-top: -40%;
+    margin-bottom: 40%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 5px;
+    border: 2px solid rgb(196, 255, 173);
+    box-shadow: 1px 1px 15px 4px white;
+    opacity: 0.8;
+}
+
+.textbox h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+}
+
+.conteudo p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.6;
+}
+
+.homebutton{
+    padding: 10px;
+}
+
+.homebutton a{
+    background-color: #394b39;
+    font-size: 25px;
+    padding: 3px;
+    border-radius: 3px;
+    color: #8b9c8a;
+    border: 1px solid #a9c0a8;
+    transition: 0.3s;
+}
+
+.homebutton a:hover{
+    transition: 0.3s;
+    font-size: 30px;
+    border: 2px solid #a9c0a8;
+    box-shadow: 1px 1px 10px 2px white;
+}
+
+.estmat h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 0.6;
+    padding-top: 90px;
+}
+
+.materiais{
+    padding-top: 30px;
+    background-color: #2b4b2b;
+    border: 1px solid #4c8b4c;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+.textmat{
+    background-color: #b8b8b8;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    opacity: 0.85;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.textmat:hover{
+    padding: 30px;
+    box-shadow: 1px 1px 10px 2px white;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.textmat p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+
+.urban{
+    padding-top: 70px;
+    margin-right: 50%;
+}
+
+.urban img{
+    width: 550px;
+    position: relative;
+    left: 18%;
+    transition: 0.7s;
+    margin-top: 10px;
+    border: 1px solid #a9c0a8;
+}
+
+.urban img:hover{
+    width: 600px;
+    transition: 0.7s;
+    box-shadow: 1px 1px 15px 4px white;
+}
+
+.urban h1{
+    font-size: 25px;
+    opacity: 0.6;
+}
+
+.agrarian{
+    padding-top: 70px;
+    margin-left: 50%;
+}
+
+.agrarian img{
+    width: 550px;
+    position: relative;
+    right: -20%;
+    transition: 0.7s;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    border: 1px solid #a9c0a8;
+}
+
+.agrarian img:hover{
+    width: 600px;
+    transition: 0.7s;
+    box-shadow: 1px 1px 15px 4px white;
+}
+
+.agrarian h1{
+    font-size: 25px;
+    opacity: 0.6;
+}
+
+.estquali{
+    padding-bottom: 10%;
+}
+
+.estquali h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 0.6;
+    padding-top: 160px;
+}
+
+.quality{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2b4b2b;
+    border: 1px solid #4c8b4c;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+.textquali{
+    background-color: #b8b8b8;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    opacity: 0.85;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.textquali:hover{
+    padding: 30px;
+    box-shadow: 1px 1px 10px 2px white;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.textquali p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+
+.quality img{
+    width: 550px;
+    margin-left: 35%;
+    margin-top: 6%;
+}
+
+.estquem{
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.quemh1{
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.quemsomos{
+    background-color: #b8b8b8;
+    margin-left: 3%;
+    margin-right: 53%;
+    margin-top: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    opacity: 0.85;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.quemsomos:hover{
+    box-shadow: 1px 1px 10px 2px white;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.quemsomos p{
+    text-align: center;
+}
+
+.quemimg img{
+    width: 750px;
+    margin-left: 50%;
+    margin-bottom: -20%;
+    position: relative;
+    bottom: 350px;
+    border: 1px solid goldenrod;
+    box-shadow: 1px 1px 10px 2px goldenrod;
+}
+
+.estsol{
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.solucaoh1{
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.solucao{
+    background-color: #a1e4ca;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    opacity: 0.85;
+    border: 1px solid #258b64;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.solucao:hover{
+    box-shadow: 1px 1px 10px 2px #0dc27c;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.solucao p{
+    text-align: center;
+}
+
+.tree img{
+    margin-left: 3%;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 15px;
+}
+
+.texttree{
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    opacity: 0.85;
+    margin-right: 5%;
+    margin-left: 42%;
+    position: relative;
+    bottom: 400px;
+    box-shadow: 1px 1px 10px 2px #ffffff;
+}
+
+.texttree p{
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.campoMap{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    margin-left: 50%;
+    box-shadow: 1px 1px 10px 2px #ffffff;
+}
+
+legend{
+    color: #000000;
+    padding-bottom: 25px;
+}
+
+button:hover{
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.footer{
+    background-color: black;
+    height: 70px;
+    padding-top: 30px;
+}
+
+.footer h1{
+    color: #bbd8ba;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
